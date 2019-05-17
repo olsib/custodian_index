@@ -1,0 +1,5 @@
+# Policy changes 
+
+      execution-options:
+        metrics_enabled: aws://master?region=us-east-1
+        output_dir: s3://<bucket name goes here>/logs/{account_id}/{region}/
